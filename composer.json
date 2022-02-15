@@ -26,14 +26,11 @@
     },
     "scripts": {
         "test": "phpunit --coverage-html tests/_reports",
-        "cs": "phpcs src/ tests/ --standard=PSR12",
-        "csf": "phpcbf src/ tests/ --standard=PSR12",
+        "cs": "phpcs --standard=PSR12",
+        "csf": "phpcbf --standard=PSR12",
         "deploy": [
             "@cs",
             "@test"
-        ],
-        "post-update-cmd": [
-            "@deploy"
         ]
     }
 }

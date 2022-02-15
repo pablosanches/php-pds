@@ -43,4 +43,4 @@ jobs:
         run: "composer update --no-interaction --no-progress --no-suggest"
 
       - name: "Tests"
-        run: "composer deploy"
+        run: "vendor/bin/phpunit"
