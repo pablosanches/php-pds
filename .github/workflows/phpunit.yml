@@ -44,7 +44,3 @@ jobs:
 
       - name: "Tests"
         run: "vendor/bin/phpunit"
-  © 2022 GitHub, Inc.
-  Terms
-  Privacy
-  Security
