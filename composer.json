@@ -16,7 +16,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "PabloSanches\\PHPPDS\\Tests\\": "src/"
+            "PabloSanches\\PHPPDS\\Tests\\": "tests/"
         }
     },
     "require-dev": {
