@@ -1,6 +1,8 @@
 FROM php:5.6-apache
 LABEL MAINTAINER="Pablo Sanches <sanches.webmaster@gmail.com>"
 
+WORKDIR /app
+
 ENV TZ=America/Sao_Paulo
 ENV APACHE_LOG_DIR=/var/www/html/logs/apache/
 ENV APACHE_RUN_USER=www-data
